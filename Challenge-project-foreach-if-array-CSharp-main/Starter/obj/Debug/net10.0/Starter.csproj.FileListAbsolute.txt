@@ -1,0 +1,15 @@
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\bin\Debug\net10.0\Starter.exe
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\bin\Debug\net10.0\Starter.deps.json
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\bin\Debug\net10.0\Starter.runtimeconfig.json
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\bin\Debug\net10.0\Starter.dll
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\bin\Debug\net10.0\Starter.pdb
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\obj\Debug\net10.0\Starter.GeneratedMSBuildEditorConfig.editorconfig
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\obj\Debug\net10.0\Starter.AssemblyInfoInputs.cache
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\obj\Debug\net10.0\Starter.AssemblyInfo.cs
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\obj\Debug\net10.0\Starter.csproj.CoreCompileInputs.cache
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\obj\Debug\net10.0\Starter.sourcelink.json
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\obj\Debug\net10.0\Starter.dll
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\obj\Debug\net10.0\refint\Starter.dll
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\obj\Debug\net10.0\Starter.pdb
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\obj\Debug\net10.0\Starter.genruntimeconfig.cache
+C:\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\Starter\obj\Debug\net10.0\ref\Starter.dll
