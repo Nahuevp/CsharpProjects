@@ -1,39 +1,32 @@
-﻿/*int readResult;
-Console.WriteLine("Enter a number between 5 and 10");
-do
-{
-    readResult = int.Parse(Console.ReadLine());
-    if (readResult >= 5 && readResult <= 10)
-        Console.WriteLine($"You entered: {readResult}");
-    else
-        Console.WriteLine("Sorry, you entered an invalid number, please try again");
-} while (readResult < 5 || readResult > 10);
-*/
+﻿const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
 
-/*string roll;
-string rollName = "";
-do
-{
-    Console.WriteLine("Enter a valid roll: Administrador, Director, or Usuario");
-    roll = Console.ReadLine();
-    if (roll != null)
-        rollName = roll.Trim();
-    if (roll.ToLower() == "administrador" || roll.ToLower() == "director" || roll.ToLower() == "usuario")
-        Console.WriteLine($"You entered: {roll}");
-    else
-        Console.WriteLine("Sorry, you entered an invalid roll, please try again");
-} while (roll.ToLower() != "administrador" && roll.ToLower() != "director" && roll.ToLower() != "usuario");
-*/
+string quantity = "";
+string output = "";
 
-string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+// Your work here
 
-int periodLocation = 0;
-for (int i = 0; i < myStrings.Length; i++)
-{
-    periodLocation = -1;
-    Console.WriteLine($"{i + 1}: {myStrings[i]}");
-    do
-    {
-        periodLocation = myStrings[i].IndexOf('.', periodLocation + 1);
-    } while (periodLocation != -1);
-}
+const string openSpan = "<span>";
+const string closeSpan = "</span>";
+
+int quantityStart = input.IndexOf(openSpan) + openSpan.Length;
+int quantityEnd = input.IndexOf(closeSpan);
+int quantityLength = quantityEnd - quantityStart;
+quantity = input.Substring(quantityStart, quantityLength);
+quantity = $"Quantity: {quantity}";
+
+const string tradeSymbol = "&trade;";
+const string regSymbol = "&reg;";
+
+output = input.Replace(tradeSymbol, "™");
+output = output.Replace(regSymbol, "®");
+
+const string openDiv = "<div>";
+int divStart = output.IndexOf(openDiv);
+output = output.Remove(divStart, openDiv.Length);
+
+const string closeDiv = "</div>";
+int divCloseStart = output.IndexOf(closeDiv);
+output = "Output: " + output.Remove(divCloseStart, closeDiv.Length);
+
+Console.WriteLine(quantity);
+Console.WriteLine(output);
